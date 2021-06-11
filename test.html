@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">    
+    <script src="https://kit.fontawesome.com/337b2ed79d.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <title>Main page</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+  <a href="#" class="active">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Catalog 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content mega-menu animate">
+        <ul>
+            <li class="title">By Sex</li>
+            <li class="animate"><a href="page.php?select=Men&val=sex">Male</a></li>
+            <li class="animate"><a href="page.php?select=Women&val=sex">Female</a></li>
+            <li class="animate"><a href="page.php?select=Unisex&val=sex">Unisex</a></li>
+        </ul>
+        <ul>
+            <li class="title">By Sport</li>
+            <li class="animate"><a href="">Football</a></li>
+            <li class="animate"><a href="page.php?select=бокс&val=category">Box</a></li>
+            <li class="animate"><a href="page.php?select=волейбол&val=category">Volleyball</a></li>
+            <li class="animate"><a href="page.php?select=баскетбол&val=category">Basketball</a></li>
+            <li class="animate"><a href="page.php?select=фитнес&val=category">Fitness</a></li>
+            <li class="animate"><a href="page.php?select=воркаут&val=category">Workout</a></li>
+            <li class="animate"><a href="page.php?select=теннис&val=category">Tennis</a></li>
+            <li class="animate"><a href="page.php?select=плвание&val=category">Swimming</a></li>
+            <li class="animate"><a href="page.php?select=гольф&val=category">Golf</a></li>
+            <li class="animate"><a href="page.php?select=велоспорт&val=category">Cycling</a></li>
+            <li class="animate"><a href="page.php?select=scating&val=category">Skating</a></li>
+            <li class="animate"><a href="page.php?select=зимний спорт&val=category">Winter sport</a></li>
+        </ul>
+        <ul>
+            <li class="title">By Brands</li>
+            <li class="animate"><a href="page.php?select=Adidas&val=brand">Adidas</a></li>
+            <li class="animate"><a href="page.php?select=Nike&val=brand">Nike</a></li>
+            <li class="animate"><a href="page.php?select=Underarmour&val=brand">Underarmour</a></li>
+            <li class="animate"><a href="page.php?select=Asics&val=brand">Asics</a></li>
+            <li class="animate"><a href="page.php?select=Puma&val=brand">Puma</a></li>
+            <li class="animate"><a href="page.php?select=Demix&val=brand">Demix</a></li>
+            <li class="animate"><a href="page.php?select=Reebook&val=brand">Reebok</a></li>
+            <li class="animate"><a href="page.php?select=New Balance&val=brand">New Balance</a></li>
+            <li class="animate"><a href="page.php?select=Everlast&val=brand">Everlast</a></li>
+            <li class="animate"><a href="page.php?select=Others&val=brand">Others</a></li>
+        </ul>
+    </div>
+  </div>
+        <a href="basket.php">My basket</a>
+  <a href="account.php">My account</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+    <div class="logoHead"></div>
+
+<div class="slider">
+   <div class="slides">
+       <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        
+       <div class="slide first">
+           <img src="assets/images/sl1.jpg" alt="">
+       </div>
+       <div class="slide" alt="">
+           <img src="assets/images/sl2.jpg" alt="">
+       </div>
+       
+       <div class="slide" alt="">
+           <img src="assets/images/sl3.jpg" alt="">
+       </div>
+       
+       <div class="slide" alt="">
+           <img src="assets/images/sl4.jpg" alt="">
+       </div>
+       
+       <div class="navigation-auto1">
+           <div class="auto-btn1"></div>
+           <div class="auto-btn2"></div>
+           <div class="auto-btn3"></div>
+           <div class="auto-btn4"></div>
+        </div>
+   </div>
+   <div class="navigation-manual1">
+       <label for="radio1" class="manual-btn"></label>
+       <label for="radio2" class="manual-btn"></label>
+       <label for="radio3" class="manual-btn"></label>
+       <label for="radio4" class="manual-btn"></label>
+   </div>
+</div>
+    <section class="content">
+        <div class="section_header">
+          <h3 class="section__subtitle">Brands we work with</h3>
+           <div class="slider2 middle">
+
+
+        
+       <div class="home-demo">
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <img src="assets/images/logo1.png">
+    </div>
+    <div class="item">
+      <img src="assets/images/logo2.png">
+    </div>
+    <div class="item">
+      <img src="assets/images/logo3.png">
+    </div>
+    <div class="item">
+     <img src="assets/images/logo4.png">
+    </div>
+    <div class="item">
+      <img src="assets/images/logo5.png">
+    </div>
+    <div class="item">
+     <img src="assets/images/logo6.png">
+    </div>
+    <div class="item">
+      <img src="assets/images/logo7.png">
+    </div>
+    <div class="item">
+      <img src="assets/images/logo8.png">
+    </div>
+    <div class="item">
+      <img src="assets/images/logo9.png">
+    </div>
+  </div>
+</div>
+       
+   </div>
+      </div>
+    </section>
+
+<div class=section__subtitle>Top 3 best-selling products</div>
+    <section class="product_part">     
+       <div class="product">
+           <div class="product_img">
+               <img src="assets/images/mask.png" alt="">
+           </div>
+           <div class="product_description">
+               One of the most popular equipment nowadays
+           </div>
+       </div>
+        <div class="product">
+           <div class="product_img">
+               <img src="assets/images/ball.png" alt="">
+           </div>
+           <div class="product_description">
+                Football balls from English Premier League 2020/21 season   
+           </div>
+       </div>
+        <div class="product">
+           <div class="product_img">
+               <img src="assets/images/shoes.png" alt="">
+           </div>
+           <div class="product_description">
+               New ASICS shoes for Volleyball
+           </div>
+       </div>
+        
+    </section>
+<section class="prefooter_part">
+     <div class="prefooter">
+           <div class="prefooter_img">
+            <img src="assets/images/prefooter.jpg">
+         </div>
+        <div class="prefooter_text1"> Быстро Качественно</div>
+        <div class="prefooter_text2"> Выберите свой товар закажите через наш сайт</div>
+    </div>
+    </section>
+    
+    <footer class="footer">
+    <div class="container">
+        <div class="footer_inner">
+            <div class="footer_col1">
+                <div class="header_logo">
+                    <img src="assets/images/logo_White.png">
+                </div>
+                <div class="footer_header">
+                    We are in social media
+                    <a href=# target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href=# target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href=# target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href=# target="_blank">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_col2">
+                <div class="footer_content"><a href="AboutUs.html">About Us</a><br>
+                    <a href="AboutUs.html">Authors</a> <br>
+                    <a href="AboutUs.html">FAQ</a><br> </div>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2021 Sports Shop AITU project
+        </div>
+    </div>
+</footer>
+    
+
+</body>
+<script type="text/javascript">
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+    
+    var counter=1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter>4){
+            counter=1;
+        }
+    },3000);
+    
+    $(function() {
+  // Owl Carousel
+  var owl = $(".owl-carousel");
+  owl.owlCarousel({
+    items: 3,
+    margin: 10,
+    loop: true,
+    nav: true
+  });
+});
+    
+</script>
+    
+</html>
